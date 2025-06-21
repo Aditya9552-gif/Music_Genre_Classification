@@ -1,4 +1,4 @@
-ffmpeg==4.4.2
+ffmpeg
 matplotlib==3.10.0
 numpy==2.0.2
 pandas==2.2.2
