@@ -1,0 +1,10 @@
+ffmpeg
+matplotlib
+numpy
+pandas
+requests
+scikit-learn
+scipy
+tensorflow
+streamlit
+librosa
