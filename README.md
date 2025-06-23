@@ -44,7 +44,7 @@ To run this project locally, follow the steps below:
      pip install -r requirements.txt
 
 5. Navigate to the final_app.py file and run it to start the local server:
-     python final_app.py
+     python streamlit_app.py
 
      
 ## Usage
@@ -79,7 +79,7 @@ Spectrogram-Based Models
 *  Notebooks: spectrogram_models.ipynb
   
 Ensemble Model
-*  The ensemble model combines predictions from the above models. It divides an audio file into 10-second segments, makes predictions for each segment, and selects the most common prediction as the final genre prediction.
+*  The ensemble model combines predictions from the above models. It divides an audio file into 3-second segments, makes predictions for each segment, and selects the most common prediction as the final genre prediction.
 *  Notebook: ensemble_model.ipynb
 
 ## Deployment
