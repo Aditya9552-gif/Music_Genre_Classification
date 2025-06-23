@@ -12,7 +12,6 @@ The project is deployed on huggingface and can be accessed online at [GTZAN Musi
 - [Preprocessing](#preprocessing)
 - [Modeling](#modeling)
 - [Ensemble Model](#ensemble-model)
-- [Deployment](#deployment)
 - [File Structure](#file-structure)
 
 ## Project Overview
@@ -82,15 +81,6 @@ Ensemble Model
 *  The ensemble model combines predictions from the above models. It divides an audio file into 3-second segments, makes predictions for each segment, and selects the most common prediction as the final genre prediction.
 *  Notebook: ensemble_model.ipynb
 
-## Deployment
-The project has been deployed using Streamlit. You can access the live application at GTZAN Music Genre Classification.
-
-To deploy the project yourself, follow these steps:
-
-1. Create an account on Streamlit.
-2. Create a new app and link it to your GitHub repository.
-3. Set up the environment variables as needed.
-4. Deploy the service and access the provided URL.
 
 ## File Structure
 The repository is structured as follows:
