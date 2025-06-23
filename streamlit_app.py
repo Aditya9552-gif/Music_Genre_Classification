@@ -205,4 +205,4 @@ if audio_file:
 
 
         st.markdown(f"**Classification Complete!**")
-        st.info(f"## Predicted Genre is: **{most_common_ensemble}**")
+        st.info(f"## Predicted Genre is: **{most_common_ensemble.upper()}**")
